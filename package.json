@@ -1,0 +1,22 @@
+{
+  "name": "audiorecorder",
+  "version": "1.0.0",
+  "description": "This is a code snippet/example for using RecorderJS with the web audio input feature to record audio from [Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanguir/AudioRecorder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanguir/AudioRecorder/issues"
+  },
+  "homepage": "https://github.com/alanguir/AudioRecorder#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}

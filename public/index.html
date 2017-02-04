@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Audio Recorder</title>
+
+	<script src="js/recorderjs/recorder.js"></script>
+	<script src="js/main.js"></script>
+	<style>
+	html { overflow: hidden; }
+	body {
+		font: 14pt Arial, sans-serif;
+		background: lightgrey;
+		height: 100vh;
+		width: 100%;
+		margin: 0 0;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="controls">
+		<button id="record" onclick="startRecording();">Start</button>
+		<button id="record" onclick="stopRecording();">stop</button>
+		<a id="save" href="#"><img src="img/save.svg"></a>
+	</div>
+</body>
+</html>
